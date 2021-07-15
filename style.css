@@ -1,0 +1,414 @@
+/** CONFIG GERAIS **/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* background-image: linear-gradient(to bottom right, white, #B7F298, white, #B4EE97, #519D75, white ); */
+
+}
+
+label{
+    font-weight: 700;
+}
+
+input{
+    border-radius: 10px;
+    background-color: azure;
+}
+
+
+/*******************************/
+/*********** HEADER ************/
+/*******************************/
+.imgheader{
+    background-size: 100%;
+    margin: 3px;
+}
+
+.divlogo{
+    height: 6rem;
+    width: 16rem;
+    margin-bottom: 0.75rem;
+}
+.imglogo{
+    margin: 1rem;
+    margin-left: 1rem;
+    background-image: url(imagens/posts/img/imgfundotransparente/5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 6rem;
+    width: 16rem;
+}
+
+/*******************************/
+/*********** NAV ***************/
+/*******************************/ 
+.navegador{
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 0, 1.5rem, 1.5rem, 0;
+}
+
+.botoesdeacessibilidade{
+    justify-content: right;
+}
+#btnA{
+    border: 1px black solid;
+    margin: 1px;   
+    padding: 3px;
+}
+
+.linkNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 500;
+}
+
+.linkNav:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B4EE97;
+    transition: 1300ms;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/*******************************/
+/*********** FOOTER ************/
+/*******************************/
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    background-color: black;
+    padding: 3rem;
+    color: antiquewhite;
+}
+
+.imgfooter1{
+    /* margin: 1rem; */
+    background-image: url(imagens/posts/img/logofooter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 3rem;
+    width: 10rem;
+    align-self: center;
+}
+
+.footerBox1{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 33%;
+
+}
+
+
+.imginsta{
+    background-image: url(imagens/posts/img/imgfundotransparente/instagram.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.textfooter1{
+    align-self: center;
+    
+}
+
+.footerBox2{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-left: antiquewhite 1px solid;
+    border-right: antiquewhite 1px solid;
+    width: 33%;
+    
+}
+
+
+.footerBox3{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 33%;
+
+}
+
+.direitos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 3px solid white;
+}
+/*******************************/
+/******************* FINAL FOOTER ***************/
+.divisoria{
+    display: flex;
+    align-items: center;
+    background-image: radial-gradient( #519D75, #B7F298, #519D75, #B4EE97);
+    width: 200px;
+    height: 3px;
+}
+
+.imgwpp{
+    background-image: url(imagens/posts/img/imgfundobranco/36.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+/******************* INDEX ***************/
+/******************************/
+/********** LINHA 1 ***********/
+.divmeio{
+    margin-top: 300px;
+    background-image: url(./imagens/posts/img/imgfundotransparente/27.jpg);
+    border-radius: 3rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 40rem;    
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa-principal{
+    padding: 3rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: auto;
+    height: 40%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-principal button {
+    margin-top: 2rem;
+    margin-bottom: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px 46px;
+    font-size: 1rem;
+    border: 1px solid #dbb075;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.titulocaixa {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .textInfo {
+    font-size: 18px;
+  }
+  
+  .infoIndex {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .infoIndex li {
+    list-style: none;
+  }
+
+.formularioP{
+    font-weight: 700;
+}
+
+.imgIndex1{
+    background-image: url(imagens/posts/img/indexbody/vegetarian.png);
+}
+
+.imgIndex2{
+    background-image: url(imagens/posts/img/indexbody/vegetarian.png);
+}
+
+.imgIndex3{
+    background-image: url(imagens/posts/img/indexbody/vegetarian.png);
+}
+
+
+/******************************/
+/********** LINHA 2 ***********/
+.linha2{
+    margin-top: 5rem;
+}
+.card1{
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.linha2_img1{
+    margin: 2rem;
+    width: 200px;
+    height: 200px;
+    background-image: url(../projetoBootstrap/imagens/imgpost.jpg);
+}
+
+.card2{
+    padding: 2rem;
+}
+.linha2_img2{
+    margin: 2rem;
+    width: 200px;
+    height: 200px;
+    background-image: url(../projetoBootstrap/imagens/imgpost.jpg);
+}
+
+.card3{
+    padding: 2rem;
+}
+.linha2_img3{
+    margin: 2rem;
+    width: 200px;
+    height: 200px;
+    background-image: url(../projetoBootstrap/imagens/imgpost.jpg);
+}
+/******************************/
+/********** LINHA 3 ***********/
+.sobre{
+    border: 1px black solid;
+    border-radius: 80px;
+    padding: 2rem;
+}
+
+
+/*******************************/
+/********* PAG CONTATO ********/
+.divmeiocontato{
+    margin-top: 300px;
+    margin-bottom: 2rem;
+    border-radius: 3rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputemail:invalid{
+    border-color: crimson;
+    box-shadow: 0px 0px 10px crimson;
+}
+
+.spanemail{
+    color: crimson;
+}
+
+.inputemail:focus:invalid{
+    box-shadow: none;
+  }
+
+/******** Form **********/
+.containerform{
+    
+    background-color: rgb(159, 221, 123);
+    
+    
+}
+
+.bodyform{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e6fadb;
+    
+    background:rgba(0, 0, 0, 0.8);
+    color:white;
+    border-radius:15px;
+    justify-content:center
+    
+}
+
+.h1form{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.background{
+    background-image: url(./imagens/posts/img/imgfundotransparente/27.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+        
+}
+
+/*******************************/
+/***** PAG COMO FUNCIONA *******/
+/************* Linha1 *********/
+.linha1cf{
+    margin: 15px;
+}
+.imgcf1{
+    background: url(imagens/posts/img/imgfundobranco/12.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/************* Linha2 *********/
+.linha2cf{
+    margin: 15px;
+}
+.imgcf2{
+    background: url(imagens/posts/img/imgfundobranco/30.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border: 3px green solid;
+    margin-top: 30px;
+
+}
+
+/************* Linha3 *********/
+.linha3cf{
+    margin: 15px;
+}
+.imgcf3{
+    background: url(imagens/posts/img/imgfundobranco/15.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+    border: 2px #B7F298 solid;
+}
+
+/************* Linha4 *********/
+.linha4cf{
+    margin: 15px;
+}
+.imgcf4{
+    background: url(imagens/posts/img/imgfundobranco/17.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}

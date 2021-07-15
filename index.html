@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="imagens/favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+
+    <title> Nutricionista Lucas </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+
+  <body>
+    <div class="container header">
+      <header class="row">
+        <div class="container header"> <!-- ABERTURA CONTAINER DO HEADER -->
+            <header class="row">
+              <!----------- Abertura navBar --------->
+           <div class="navbar navbar-light row navegador fixed-top">
+              <div class="col-md-4 col-sm-4 col-lg-4 divlogo"> <div class="imglogo rounded mx-auto d-block"> </div> </div> <!------------------------------- LOGO -->
+  
+              <div class="col-md-4 col-sm-4 col-lg-4 row"> <!----------------------------------------------------- Links da navegação-->
+                  <a class="nav-link active col-md-4 col-sm-4 col-lg-4 linkNav" href="index.html"> Inicio </a>
+                  <a class="nav-link active col-md-4 col-sm-4 col-lg-4 linkNav" href="comofunciona.html"> Sobre  </a>
+                  <a class="nav-link active col-md-4 col-sm-4 col-lg-4 linkNav" href="contato.html"> Contato </a>
+              </div> 
+  
+              <div class="botoesdeacessibilidade col-md-4 col-sm-4 col-lg-4"> <!---------------------------- DIV BOTOES ACESSIBILIDADE-->
+                  <button type="button" class="btn btn-secondary botaoaumenta" id="btnA" onclick="aumentar()"> A + </button>
+                  <button type="button" class="btn btn-primary botaodiminui" id="btnA" onclick="diminuir()"> A - </button>
+              </div>
+              
+           </header> 
+           </div> <!-- FECHAMENTO DIV NAVEGAÇÃO -->
+        </div> <!-- Fechamento container header -->
+        
+      <!-------------------------------------------------------------------------------------------------->
+      <!------------------------------------- INICIO CORPO ----------------------------------------------->  
+      <!-------------------------------------------------------------------------------------------------->
+      <!---------------------------------- LINHA 1 -------------------------->
+      <div class="container envelopecorpo">
+        <div class="row linha1">  <!-- Abertura linha 1-->
+            <div class="col-md-12">
+                <div class="divmeio">
+                    <div class="caixa-principal">
+                        <p class="titulocaixa">Alimentação saudável não é gasto, é investimento! </p> <br /><br />
+            
+                            <p class="text-center textInfo">Com um atendimento personalizado, ajudo pessoas a atingirem o
+                            objetivo de uma alimentação mais saudável, sem dietas "malucas".
+                            Vamos juntos melhorar sua saúde e autoestima! <br />
+                            Com disciplina e hábitos balanceados podemos viver mais e
+                            partilhar momentos com quem amamos.<br /><br />
+            
+                            Clice em "Contato" e agende seu primeiro atendimento!
+                          </p>
+                          <div class="divImagensIndex row">
+                            <div class="imgIndex1"> </div>
+                            <div class="imgIndex2"> </div>
+                            <div class="imgIndex3"> </div>
+                          </div>
+                    </div>
+                </div>
+
+            </div>
+        </div> <!-- Fechamento linha 1-->
+        <!------------------------------------------------------------------>
+        <!--------------------------LINHA 2 -------------------------------->
+        <div class="row linha2"> <!-- Abertura linha 2 -->
+            <div class="col-md-4 col-sm-4 col-lg-4 card1"> <!------------------ CARD 1 (Esquerda)-------------------------------->
+
+                <div id="caroulsel1" class="carousel slide" data-ride="carousel" data-interval="4000">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="imagens/posts/img/imgfundobranco/4.png" alt="Primeiro Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="imagens/posts/img/imgfundobranco/6.png" alt="Segundo Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="imagens/posts/img/imgfundobranco/7.png" alt="Terceiro Slide">
+                      </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#caroulsel1" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#caroulsel1" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                  </div>
+
+            </div>
+
+            <div class="col-md-4 card2  col-sm-4 col-lg-4"> <!------------------ CARD 2 (MEIO)------------------------------------>
+                <div id="caroulsel2" class="carousel slide" data-ride="carousel" data-interval="4000">
+
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="imagens/posts/img/imgfundobranco/21.png" alt="Primeiro Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="imagens/posts/img/imgfundobranco/22.png" alt="Segundo Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="imagens/posts/img/imgfundobranco/23.png" alt="Terceiro Slide">
+                      </div>
+                      
+                    </div>
+                    <a class="carousel-control-prev" href="#caroulsel2" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#caroulsel2" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                  </div>
+
+            </div>
+
+            <div class="col-md-4 card3 col-sm-4 col-lg-4"> <!------------------ CARD 3 (DIREITA)-------------------------------->
+                <div id="caroulsel3" class="carousel slide" data-ride="carousel" data-interval="4000">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="imagens/posts/img/imgfundobranco/1.png" alt="Primeiro Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="imagens/posts/img/imgfundobranco/2.png" alt="Segundo Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="imagens/posts/img/imgfundobranco/3.png" alt="Terceiro Slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#caroulsel3" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#caroulsel3" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                  </div>
+
+            </div>
+
+        </div><!-- Div linha 2 FECHA  -->
+        <!------------------------------------------------------------------>
+        <!--------------------------LINHA 3 -------------------------------->
+        <div class="infoIndex">
+          <h3>Meu trabalho</h3>
+          <ul>
+        <li>Trabalho com públicos diversos</li>
+        <li>Terapia nutricional de doenças crônicas</li>
+        <li>Reeducação alimentar</li>
+        <li>Tratamento de doenças do intestino</li>
+        <li>Dietas para praticantes de atividade física</li>
+        <li>Foco em emagrecimento</li>
+      </ul>
+    </div>
+    
+        
+
+        
+      </div> <!-- Fechamento Div CORPO (envelopecorpo)-->
+      
+    <!-------------------------------------------------------------------------------------------------->
+    <!------------------------------------- INICIO FOOTER ---------------------------------------------->  
+    <!--------------------------------------------------------------------------------------------------> 
+    <footer> 
+        <div class="footer">
+            <div class="footerBox1">
+                <div class="imgfooter1"> </div> 
+                 <div class="textfooter1"> CRN-6: 32138 </div> <br>  
+                 <a href="https://www.instagram.com/nutricionist.lucas/" alt="instagram Nutricionist.Lucas"> <div class="imginsta"></div></a>
+            </div>
+
+            <div class="footerBox2">
+
+                <h5> Benefícios:</h5>
+
+                Investimento acessível<br>
+                Nutricionista online<br>
+                Acompanhamento exclusivo 
+            </div>
+
+            <div class="footerBox3">
+                
+                <p>
+                    Gostou do conteúdo? Continue acompanhando nas redes e compartilhe com seus amigos. Conhecimento é sempre bom! 
+                </p> 
+            </div>
+
+            <a href="https://api.whatsapp.com/send?phone=5588999053714&text=Texto%20aqui"
+                target="_blank" style="position:fixed;bottom:20px;right:30px;">
+                    <div class="imgwpp" alt="Contato pelo WhatsApp"></div>
+                </a>
+        </div>
+        <div class="direitos"> <p> Desenvolvido por Código Verde - Todos os direitos reservados </p> </div>
+    </footer> 
+    
+    <!---------------------------------------------------------------------------------------------------->
+    <!-- ------------------------ SCRIPTS ACESSIBILIDADE ------------------------------------------------->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+
+    <script src="acessibilidade.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
